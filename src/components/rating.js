@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Rating() {
+export function Rating() {
   const [ratingOne, setRatingOne] = useState("emptyheart");
   const [ratingTwo, setRatingTwo] = useState("emptyheart");
   const [ratingThree, setRatingThree] = useState("emptyheart");
