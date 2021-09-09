@@ -69,7 +69,7 @@ function Settings() {
     </div>
   );
 }
-export default function Navigation() {
+export function Navigation() {
   const [verticalPillsContent, setVerticalPillsContent] = useState(<Home />);
   return (
     <div>
