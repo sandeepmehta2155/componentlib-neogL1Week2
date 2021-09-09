@@ -1,5 +1,4 @@
-import React from "react";
-export default function Image() {
+export function Image() {
   return (
     <div className="imageWithShapes">
       <div className="card">

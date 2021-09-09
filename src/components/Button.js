@@ -1,5 +1,4 @@
-import React from "react";
-export default function Button() {
+export function Button() {
   return (
     <div>
       <h1>Examples</h1>

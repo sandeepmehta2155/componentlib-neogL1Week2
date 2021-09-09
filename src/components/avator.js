@@ -1,5 +1,4 @@
-import React from "react";
-export default function Avator() {
+export function Avator() {
   return (
     <div className="avatar">
       <div className="card">

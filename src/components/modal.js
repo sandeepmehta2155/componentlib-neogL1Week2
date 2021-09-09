@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-export default function Modal() {
+import { useState } from "react";
+export function Modal() {
   const [visiblity, setVisibility] = useState("hidden");
   const [visModal2, setVisiModal2] = useState("hidden");
   const [vistopLeft, setVistopLeft] = useState("hidden");

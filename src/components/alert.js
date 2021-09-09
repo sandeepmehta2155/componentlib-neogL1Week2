@@ -1,5 +1,5 @@
 import React from "react";
-export default function Alert() {
+export function Alert() {
   return (
     <div className="alert">
       <h1> Examples</h1>

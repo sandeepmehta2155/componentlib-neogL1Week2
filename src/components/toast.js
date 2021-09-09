@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-export default function Toast() {
+import { useState } from "react";
+export function Toast() {
   const [RightToastVisiblity, setRightToastVisibility] = useState("hidden");
   const [LeftToastVisibility, setLeftToastVisibility] = useState("hidden");
   const [TopToastVisibility, setTopToastVisibility] = useState("hidden");

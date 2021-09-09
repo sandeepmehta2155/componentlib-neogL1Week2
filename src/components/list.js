@@ -1,5 +1,4 @@
-import React from "react";
-export default function List() {
+export function List() {
   return (
     <div>
       <h1>Basic example</h1>

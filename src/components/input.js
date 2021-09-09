@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-export default function Input() {
+import { useState } from "react";
+export function Input() {
   const [emailTxtposition, setemailTxtposition] = useState("2.5rem");
   const [emailTxtpositionTop, setemailTxtpositionTop] = useState("0rem");
   return (

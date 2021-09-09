@@ -1,5 +1,4 @@
-import React from "react";
-export default function SimpleGrid() {
+export function SimpleGrid() {
   return (
     <div className="gridcomponents">
       <div className="card">
